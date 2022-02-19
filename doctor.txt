@@ -1,0 +1,45 @@
+Clients:
+ id:integer;
+ fullname:string;
+ description:text;
+
+Doctors:
+ id:integer;
+ login:string;
+ password:string;
+ fullname:string;
+ description:text;
+
+Methods:
+ id:integer;
+ shortname:string;
+ description:text;
+
+Log:
+ client:integer;
+ doctor:integer;
+ method:integer;
+ money:integer;
+ time:integer;
+ description:text;
+ status;
+
+
+0 duxtir ro'yxatga oldi.
+//2 registratura ro'yxatga oldi.
+1 registratura tasdiqlandi.
+
+0 user doctor method money time
+1 user doctor time
+2 user doctor method money time
+
+0 - Boshliq
+1 - Registratura
+2 - Duxtir
+3 - Kuzatuvchi
+
+Menu:
+ Ro'yxat (list)
+ Duxtirlar (doctor)
+ Xizmat ko'rsatish (method)
+ Mijozlar (client) 

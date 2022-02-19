@@ -1,0 +1,14 @@
+css:text/css
+jpg:image/jpg
+mp4:video/mp4
+mp3:audio/mp3
+woff2:application/font-woff2
+eot:application/font-eot
+svg:image/svg+xml
+woff:application/font-woff
+png:image/png
+js:text/javascript
+php:text/html
+gif:image/gif
+txt:text/plain
+appcache:text/cache-manifest

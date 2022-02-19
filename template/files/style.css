@@ -1,0 +1,44 @@
+ #container {
+ 	width:60%;
+  	font-family: calibri;float: left;
+}
+
+#header {
+	font-size: 16pt;
+ 	font-family: monospace;
+	background: magenta;
+}
+
+.left.nav {
+	background-color:#FFD700;
+	min-height:200px;
+  	width:25%;
+  	float:left;
+  }
+
+.top.nav {
+  	background: pink;
+}
+
+.top.nav > div {
+  	display:inline;
+  	margin:5px;
+  }
+
+  	#footer {
+  		background-color:#FFA500;
+  		clear:both;
+  		text-align:center;
+  	}
+  	#content {
+  		background-color:#EEEEEE;
+  		min-height:200px;
+  		width:75%;
+  		float:left;
+  	}
+  	.ad {
+  		width: 20%;
+  		height: 10px;
+  		background: #0f0;
+  		float: left;
+  	}
